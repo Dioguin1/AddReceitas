@@ -1,14 +1,14 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
-import DetalhesReceita from "./paginas/detalhesReceitas";
+import DetalhesReceita from "./paginas/Ingredientes";
 
 import Header from "./componentes/cabecalho";
 
 import Erro from "./paginas/erro";
 
-import ListaTitulosReceitas from "./paginas/listarReceitas";
-import CriarReceita from "./paginas/novaReceita";
+import ListaTitulosReceitas from "./paginas/Receitas";
+import CriarReceita from "./paginas/addReceita";
 
 
 function RoutesApp() {
@@ -19,7 +19,7 @@ function RoutesApp() {
                 <Route path="/" element={<ListaTitulosReceitas />}></Route>
                 <Route path="/detalhes/:id" element={<DetalhesReceita />} />
                 <Route path="*" element={<Erro />}></Route>
-                <Route path="/add" element={<CriarReceita />}></Route>
+                <Route path="/nova" element={<CriarReceita />}></Route>
             </Routes>
         </BrowserRouter>
     )

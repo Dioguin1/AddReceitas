@@ -1,6 +1,6 @@
 header {
     width: 96%;
-    height: 30px;
+    height: 38px;
     background-color: #121212;
     color: #fff;
     display: flex;
@@ -13,7 +13,23 @@ header a {
     color: #fff;
     font-size: 15px;
     padding: 8px;
-    background-color: rgb(194, 0, 0);
+    background-color: rgb(128, 123, 123);
     text-decoration: none;
     border-radius: 20px;
+}
+.listagem {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 22px;
+    margin-left: 50px ;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.Receita{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #121212;
+    padding: 10px;   
 }

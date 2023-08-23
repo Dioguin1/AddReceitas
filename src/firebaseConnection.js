@@ -7,12 +7,12 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyAVP0EI3EqLOvOm21YGYbPu7o8gZNI0OTw",
-    authDomain: "bancoreceitas.firebaseapp.com",
-    projectId: "bancoreceitas",
-    storageBucket: "bancoreceitas.appspot.com",
-    messagingSenderId: "1040988111781",
-    appId: "1:1040988111781:web:12070f40af1a56246e5e4c"
+  apiKey: "AIzaSyCYaOVIauTUR_eR4GB0y47HcgW5fz5aqv8",
+  authDomain: "receitas-802b7.firebaseapp.com",
+  projectId: "receitas-802b7",
+  storageBucket: "receitas-802b7.appspot.com",
+  messagingSenderId: "63344166535",
+  appId: "1:63344166535:web:a289170102c5304b09da22"
 };
 
 // Initialize Firebase

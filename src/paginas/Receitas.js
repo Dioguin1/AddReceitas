@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom"; 
 import { collection, onSnapshot } from "firebase/firestore"; 
 import { db } from "../firebaseConnection";
+import '../componentes/estilo.css';
 
 function ListaTitulosReceitas() {
   const [titulosReceitas, setTitulosReceitas] = useState([]);
@@ -24,9 +25,9 @@ function ListaTitulosReceitas() {
   }
 
   return (
-    <div>
+    <div class="listagem">
       <h1>Lista de Receitas</h1>
-      <ul>
+      <ul class="Receita">
         {titulosReceitas.map((receita) => (
           <li key={receita.id}>
             <Link to={`/detalhes/${receita.id}`}>{receita.titulo}</Link>
